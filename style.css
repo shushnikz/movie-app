@@ -1,0 +1,31 @@
+.navbarcolor{
+    background-color: #22254b;
+}
+body{
+    background-color: #313253;
+}
+.overview{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.movie:hover .overview{
+    opacity: 1;
+    background-color: #ffffff;
+    transition: opacity 0.9s ease-in-out;
+}
+img{
+    height: 350px;
+}
+
+
+.green{
+    color: green;
+}
+.orange{
+    color: orange;
+}
+.red{
+    color: red;
+}
